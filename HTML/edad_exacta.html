@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <!--CND BOOSTRAP-->
+    <title>¡Descubre tu edad exacta!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/edad_exacta.css">
+</head>
+
+<body>
+    <!--Logos institucionales-->
+    <img class="logo_atenea" src="../CSS/img/logo_atenea.png" alt="Logo institucional Atenea">
+    <img class="logo_universidad_distrital" src="../CSS/img/Logo_Escudo_Acreditacion_Horizontal.png"
+        alt="Logo institucional Atenea">
+    <a href="inicio.html#puntos_actividad">
+        <img class="home" src="../CSS/img/home.png" alt="Imágen con funcionalidad de regreso al menú">
+    </a>
+    <!--Formulario-->
+    <div class="formulario">
+        <form action="../HTML/edad_exacta.php" method="post">
+            <div class="valores">
+                <label for="formulario_1">Por favor, selecciona tu fecha de nacimiento</label>
+                <input type="date" name="fechas" class="fecha" id="formulario_1" required>
+            </div>
+            <!--Botón-->
+            <button type="submit" name="verificar" class="botón">Registrar</button>
+        </form>
+    </div>
+</body>
+
+</html>

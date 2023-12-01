@@ -1,0 +1,64 @@
+/*Estilo body y background*/
+body {
+    margin-left: 100px;
+    background-image: url(https://i.pinimg.com/564x/c0/9e/45/c09e45575ebb92f8716724864e21c9a4.jpg);
+    background-size: 100%;
+}
+/*Estilo de logos*/
+
+.home {
+    position: absolute;
+    top: 25px;
+    left: 2px;
+    width: 200px;
+}
+
+.logo_atenea {
+    position: absolute;
+    width: 10%;
+    top: 11px;
+    left: 900px;
+    z-index: 1;
+    background-color: #ffffff79;
+}
+.logo_universidad_distrital {
+    position: absolute;
+    width: 10%;
+    top: 10px;
+    left: 1100px;
+    background-color: #ffffff79;
+    z-index: 1;
+}
+/*Estilo de formularios*/
+.formulario_general {
+    width: 50%;
+    padding: 50px;
+    height: 250px;
+    border-radius: 30px;
+    background-color: #afa94f71;
+    box-shadow: 0px 0px 20px 0px #a19b60c6;
+    margin: 7% auto;
+    margin-bottom: 0px;
+    margin-top: 15%;
+}
+.valores {
+    font-weight: bold;
+}
+
+button {
+    float: right;
+    color: white;
+    background-color: #0b9e6d;
+    margin-top: 5%;
+}
+
+.resultado {
+    width: 25%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #d9d9d9c2;
+    box-shadow: 0px 0px 20px 0px #6e6e6ec6;
+    margin: 7% auto;
+    margin-top: -65px;
+    text-align: center;
+}
